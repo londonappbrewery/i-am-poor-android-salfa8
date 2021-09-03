@@ -6,12 +6,19 @@
     android:layout_height="match_parent"
     android:layout_centerInParent="false"
     android:layout_centerHorizontal="true"
-    android:background="#74B5D3"
+    android:background="#74B5D2"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/coal"
+        android:contentDescription="@string/app_name"/>
 
     <TextView
         android:id="@+id/textView"
@@ -19,15 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="@string/app_name"
-        android:textColor="#000000"
-        android:textSize="50sp" />
+        android:textSize="40sp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="#74B5D3"
-        android:contentDescription="@null"
-        app:srcCompat="@drawable/coal" />
 </RelativeLayout>
